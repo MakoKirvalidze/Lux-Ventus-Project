@@ -99,6 +99,7 @@ nav a {
     padding-left: 0%;
     background-image: url('./images/pexels-andrea-piacquadio-994234\ 1.png'); /* Background image */
     border-radius: 20px;
+    margin-bottom: 73px;
 }
 
 
@@ -199,7 +200,245 @@ nav a {
 
 
 /* topics  */
+.topics title h2{
+    font-family: Poppins, sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+}
 
+/* topic cards  */
+.topics-title{
+    margin-bottom: 48px;
+}
+
+.topic-cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topic-card{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 6px 6px 0px #0000000D;
+    width: 204px;
+    height: 291px;
+    top: 849px;
+    left: 83px;
+    padding-bottom: 29.88px;
+    padding-top: 33px;
+    margin-bottom: 87.5px;
+
+}
+
+.lingerie img{
+    width: 88px;
+    height: 88px;
+    margin-bottom: 20px;
+}
+
+.spring img{
+    width: 103px;
+    height: 103px;
+    margin-bottom: 5px;
+}
+
+.yoga img{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 18px;
+}
+
+.glow img{
+    width: 89px;
+    height: 89px;
+    margin-bottom: 27px;
+}
+
+.ensembles img{
+    width: 86px;
+    height: 86px;
+    margin-bottom: 27px;
+}
+
+.skin-care img{
+    width: 102px;
+    height: 102px;
+    margin-bottom: 13px;
+}
+
+.topic-card h2{
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #262626;
+    line-height: 30px;
+    text-align:center;
+    margin-bottom: 29px;
+    width: 129px;
+    height: 36px;
+
+}
+
+.topic-card a.button{
+    font-family: Poppins,sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    text-align: center;
+    color: #262626; 
+    background-color: #4CE0D7;
+    padding: 10px 40px;
+    border-radius: 40px;
+}
+
+/* line  */
+
+.line {
+    width: 1267px;;
+    height: 1px;
+    background-color: #BCBCBC;
+    margin-bottom: 52.5px;
+
+}
+
+
+
+/* latest trends  */
+
+.latest-trends{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 6px 6px 0px #0000000D;
+    width: 1204px;
+    height: 698px;
+    top: 1280px;
+    left: 118px;
+    border-radius: 20px;
+    margin-bottom: 97px;
+
+}
+   
+.latest-trends-image img{
+    width: 1204px;
+    height: 360.3px;
+    top: 1280px;
+    left: 118px;
+    border-radius: 20px;
+}
+
+.latest-trends-info {
+    max-width: 1072px;
+    width: 100%;
+}
+
+.trends-info-section-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+
+}
+
+.info-image-container {
+    border-radius: 70%;
+    width: 65.67px;
+    height: 50.77px;
+    overflow: hidden;
+
+}
+
+.info-image-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.trends-info-section-1 h3{
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    color: #BCBCBC;
+}
+
+
+
+.trends-info-section-1 h2{
+    font-family: Poppins,sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0.24em;
+    text-align: left;
+    color: #F25E5E;
+    
+}
+
+.trends-info-section-2{
+    display: flex;
+    flex-direction: column;
+    align-self: start;
+    gap: 23px;
+    margin-bottom: 40px;
+
+
+}
+
+.trends-info-section-2 h2{
+    font-family: Poppins, sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 39px;
+    text-align: left;
+    color: #262626;
+
+}
+
+.trends-info-section-2 p{
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #262626;
+}
+
+.trends-info-section-3{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-bottom: 38px;
+    
+}
+
+.trends-info-section-3 h2{
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0.24em;
+    text-align: left;
+    color: #4CE0D7;
+
+}
+
+.trends-info-section-3 img{
+    width: 51px;
+    height: 40px;
+}
+
+
+    
 
 
 

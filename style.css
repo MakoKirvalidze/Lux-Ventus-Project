@@ -18,8 +18,144 @@ body {
     padding: 0 84px;
     margin: 0 auto;
 }
+/* H O V E R */
+nav a:hover   , nav a:focus  , nav a:active, .search-button:hover   , .search-button:focus  , .search-button:active {
+    
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1); 
+
+}
+
+nav a, .search-button{
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
 
 /* header  */
+header {
+    background-color: #F9F9F9; 
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0px; 
+    padding-top: 37px;
+    padding-bottom: 47px;
+    padding-left: 84px; 
+    padding-right: 84px; 
+}
+
+.logo {
+    width: 234px;
+    height: 49px;
+    opacity: 0px; 
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 61.25px;
+    margin-left: 225px; 
+    margin-right: 66.9px;
+}
+
+nav a {
+    font-weight: 700;
+    color: rgba(38, 38, 38, 1);
+    font-size: 14px;
+    line-height: 21px;
+    text-align: left;
+    
+}
+
+/* Contact Button Styles */
+.contact-button {
+    width: 143.81px;
+    height: 35.95px;
+    border-radius: 40px;
+    background: rgba(76, 224, 215, 1);
+    padding: 9px 31px 7px 32px; 
+    
+}
+
+.search-button {
+    width: 47px;
+    height: 47px;
+    border-radius: 50%;
+    
+}
+ 
+
+/* first section styles */
+.first-section {
+    width: 1272px;
+    padding-top: 218px;
+    padding-bottom: 141px;
+    padding-left: 0%;
+    background-image: url('./images/pexels-andrea-piacquadio-994234\ 1.png'); /* Background image */
+    border-radius: 20px;
+}
+
+
+.first-section h3 {
+    width: 209px;
+    height: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0.23em;
+    text-align: left;
+    color: #ffffff; 
+    margin-left:  57px; 
+    margin-bottom: 22px;
+}
+
+
+.first-section h1 {
+    width: 627px;
+    height: 69px;
+    font-family:'Poppins', sans-serif ;
+    font-size: 46px;
+    font-weight: 400;
+    line-height: 69px;
+    text-align: left;
+    color: #FFFFFF; 
+    margin-left: 57px; 
+}
+
+/* Span Styles */
+.first-section h1 span {
+    font-family:'Poppins', sans-serif ;
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 69px;
+    text-align: left;
+    color: #00ffff;
+}
+
+.first-section p{
+    width: 494px;
+    height: 72px;
+    top: 479px;
+    left: 137px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);   
+    margin-left: 53px;   
+    margin-top: 19px;
+}
+
 
 
 

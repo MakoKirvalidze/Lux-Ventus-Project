@@ -930,6 +930,21 @@ nav a {
     max-width: 513px;
    }
 
+   
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
    /* footer responsive tab  */
 
 
@@ -1101,3 +1116,58 @@ nav a {
     max-width: 513px;
    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* TRENDING RESPONSIVEV2------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
+@media(max-width:1400px){ .trending-section{ max-width: 1440px; width: 100%; padding: 0px 92px; margin: 0 auto; } } .container3{ max-width: 1440px; width: 100%; padding: 0px 28px; margin: 0 auto; }
+@media(max-width:1200px){ .trending-section{ max-width: 1440px; width: 100%; padding: 0px 0px; margin: 0 auto; } } .container3{ max-width: 1440px; width: 100%; padding: 0px 28px; margin: 0 auto; }
+@media(max-width:1300px){ .trending-section{ max-width: 1440px; width: 100%; padding: 0px 25px; margin: 0 auto; } } .container3{ max-width: 1440px; width: 100%; padding: 0px 28px; margin: 0 auto; }
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+@media(max-width:1200px){
+   .box1, .box2, .box3{
+    gap:1px ;
+    flex-direction: column;
+    margin-top: 1px;
+    padding-top: 5px;
+   } 
+
+   .content2{
+    margin-right: 0px;
+    gap: 38px;
+   }
+
+   .sec8{
+    padding-top: 24px;
+    max-width: 513px;
+   }
+}
+
+@media(max-width:550px){
+    .TR-box{
+        margin-left: 194px
+    }
+    .content4{
+        width: 500px;
+    }
+    .box1, .box2, .box3{
+        margin-left: 194px
+    }
+}
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */

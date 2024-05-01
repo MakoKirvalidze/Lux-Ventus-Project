@@ -492,6 +492,7 @@ nav a {
     gap: 45px;
     background-color: #FFFFFF;
     border-radius: 20px;
+    box-shadow: 0px 6px 6px 0px #0000000D;
 }
 
 .box2{
@@ -516,6 +517,8 @@ nav a {
     background-color: #FFFFFF;
     border-radius: 20px;
     padding-bottom: 45px;
+    box-shadow: 0px 6px 6px 0px #0000000D;
+
 }
 
 /* ============================================================================================================================ */
@@ -627,9 +630,8 @@ nav a {
 
 .sec5{
     display: flex;
-    gap: 10px;
     align-items: center;
-    width: 100px;
+    width: 130px;
 }
 
 .sec6{
@@ -651,10 +653,9 @@ nav a {
 
 .sec9{
     display: flex;
-    gap: 10px;
     align-items: center;
     padding-top: 30px;
-    width: 100px;
+    width:130px;
 }
 
 .sec9:hover,   .sec9:focus,   .sec9:active  {-webkit-transform: scale(1.1); transform: scale(1.1);}
@@ -692,8 +693,76 @@ nav a {
 }
 
 .arrow1{
-    color: #4CE0D7;
-    font-size:20px ;
+    cursor: pointer;
 }
 
 /* ========================================================================================================================= */
+@media(max-width:1200px){
+    .box4{
+        display: flex;
+        flex-direction: column;
+        gap:1px;
+    }
+   .TR-box{
+        gap: 10px;
+}
+   .content-boxes4{
+    margin-bottom: 46px;
+   }
+
+
+   .box1, .box2, .box3{
+    gap:1px ;
+    flex-direction: column;
+    margin-top: 1px;
+    padding-top: 5px;
+   } 
+
+   .content2{
+    margin-right: 0px;
+    gap: 38px;
+   }
+
+   .sec8{
+    padding-top: 24px;
+    max-width: 513px;
+   }
+}
+
+@media(max-width:600px){
+
+    .container2{
+        padding: 0 10px;
+    }
+
+
+    .box4{
+        display: flex;
+        flex-direction: column;
+        gap:1px;
+    }
+   .TR-box{
+        gap: 10px;
+}
+   .content-boxes4{
+    margin-bottom: 46px;
+   }
+
+
+   .box1, .box2, .box3{
+    gap:1px ;
+    flex-direction: column;
+    margin-top: 1px;
+    padding-top: 5px;
+   } 
+
+   .content2{
+    margin-right: 0px;
+    gap: 38px;
+   }
+
+   .sec8{
+    padding-top: 24px;
+    max-width: 513px;
+   }
+}

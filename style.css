@@ -257,6 +257,19 @@ nav a {
     border-radius: 40px;
 }
 
+.topic-card a.button:hover,   
+.topic-card a.button:focus,   
+.topic-card a.button:active  {
+    -webkit-transform: scale(1.1); transform: scale(1.1);
+}
+
+.topic-card:hover,   
+.topic-card:focus,   
+.topic-card:active  {
+    -webkit-transform: scale(1.1); transform: scale(1.1);
+}
+
+
 /* line  */
 
 .line {

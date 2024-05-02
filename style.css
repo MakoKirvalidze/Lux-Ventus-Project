@@ -20,6 +20,8 @@ body {
 }
 
 
+
+
 /* H O V E R */
 nav a:hover   , nav a:focus  , nav a:active, .search-button:hover   , .search-button:focus  , .search-button:active {
     
@@ -44,26 +46,24 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 0px; 
     padding-top: 37px;
     padding-bottom: 47px;
-    padding-left: 84px; 
-    padding-right: 84px; 
+    margin: 0 84px;
+    /* width: 1272px; */
 }
 
 .logo {
     width: 234px;
     height: 49px;
-    opacity: 0px; 
 }
 
 .menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 61.25px;
-    margin-left: 225px; 
+    margin-left: 255px; 
     margin-right: 66.9px;
+    width: 658.81px;
 }
 
 nav a {
@@ -89,7 +89,6 @@ nav a {
     width: 47px;
     height: 47px;
     border-radius: 50%;
-    
 }
  
 
@@ -149,7 +148,7 @@ nav a {
     left: 137px;
     gap: 0px;
     opacity: 0px;
-    font-family: Poppins;
+    font-family: 'Poppins',sans-serif;
     font-size: 20px;
     font-weight: 400;
     line-height: 30px;
@@ -158,46 +157,6 @@ nav a {
     margin-left: 53px;   
     margin-top: 19px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* intro section */
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -220,6 +179,7 @@ nav a {
     justify-content: space-between;
     align-items: center;
     gap: 10px;
+    flex:wrap;
 }
 
 .topic-card{
@@ -277,7 +237,7 @@ nav a {
 }
 
 .topic-card h2{
-    font-family: Poppins, sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 20px;
     font-weight: 700;
     color: #262626;
@@ -290,7 +250,7 @@ nav a {
 }
 
 .topic-card a.button{
-    font-family: Poppins,sans-serif;
+    font-family: 'Poppins',sans-serif;
     font-size: 12px;
     font-weight: 700;
     line-height: 18px;
@@ -342,7 +302,7 @@ nav a {
 }
 
 .fashion-heading{
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 700;
     font-style: normal;
     font-size:12px ;
@@ -397,7 +357,7 @@ nav a {
 }
 
 .trends-info-section-1 h3{
-    font-family: Poppins, sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 14px;
     font-weight: 400;
     line-height: 21px;
@@ -408,7 +368,7 @@ nav a {
 
 
 .trends-info-section-1 h2{
-    font-family: Poppins,sans-serif;
+    font-family: 'Poppins',sans-serif;
     font-size: 14px;
     font-weight: 700;
     line-height: 21px;
@@ -437,7 +397,7 @@ nav a {
 }
 
 .trends-info-section-2 h2{
-    font-family: Poppins, sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 26px;
     font-weight: 700;
     line-height: 39px;
@@ -447,7 +407,7 @@ nav a {
 }
 
 .trends-info-section-2 p{
-    font-family: Poppins, sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -466,8 +426,8 @@ nav a {
     
 }
 
-.trends-info-section-3 h2{
-    font-family: Poppins, sans-serif;
+.trends-info-section-3 a.read-button{
+    font-family: 'Poppins', sans-serif;
     font-size: 12px;
     font-weight: 700;
     line-height: 18px;
@@ -476,7 +436,6 @@ nav a {
     color: #4CE0D7;
     width: 215px;
     height: 24px;
-
 }
 
 .trends-info-section-3 img{
@@ -493,41 +452,6 @@ nav a {
 .trends-info-section-3 {
     cursor: pointer;
 } 
-
-
-
-
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -561,6 +485,7 @@ nav a {
 
 .box3{
     margin-top: 48px;
+    margin-bottom: 59px;
 }
 
 .box4{
@@ -755,6 +680,91 @@ nav a {
 .arrow1{
     cursor: pointer;
 }
+
+
+
+
+
+/* footer section ==================================================================  */
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    border-radius:40px 40px 0px 0px;
+    box-shadow: 6px 0px 6px 0px #0000000D;
+    padding-top: 87px;
+    padding-bottom: 37px;
+
+}
+.thirst-sec-footer{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 77px;
+}
+
+.footer img{
+    width: 226px;
+    height: 49px;
+
+}
+
+.footer-text{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.footer-text p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 39px;
+    text-align: left;
+    width: 227px;
+    
+}
+
+.footer-icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding-left: 13px;
+}
+
+.footer-icons a img{
+    width: 32px;
+    height: 31px;
+
+}
+
+
+
+.footer-line {
+    width: 1267px;;
+    height: 1px;
+    background-color: #BCBCBC;
+    margin:0 auto;
+    padding-bottom: 34px;
+
+}
+
+.second-sec-footer p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    text-align: left;
+
+}
+
+
+
+
+
+
 
 /* ========================================================================================================================= */
 /* tab responsive  */

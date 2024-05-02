@@ -48,14 +48,9 @@ header {
     align-items: center;
     padding-top: 37px;
     padding-bottom: 47px;
-    margin: 0 84px;
-    /* width: 1272px; */
+  
 }
 
-.logo {
-    width: 234px;
-    height: 49px;
-}
 
 .menu {
     display: flex;
@@ -63,7 +58,7 @@ header {
     align-items: center;
     margin-left: 255px; 
     margin-right: 66.9px;
-    width: 658.81px;
+    gap: 60px;
 }
 
 nav a {
@@ -1179,3 +1174,5 @@ footer{
     }
 }
 /* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+

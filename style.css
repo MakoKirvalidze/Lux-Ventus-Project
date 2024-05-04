@@ -1144,6 +1144,18 @@ footer{
 @media(max-width:1300px){ .trending-section{ max-width: 1440px; width: 100%; padding: 0px 25px; margin: 0 auto; } } .container3{ max-width: 1440px; width: 100%; padding: 0px 28px; margin: 0 auto; }
 /* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 @media(max-width:1200px){
+
+   .box4{
+    gap: 55px;
+    display: flex;
+    flex-direction: column;
+   }
+
+
+   .container2{
+    padding: 0px 0px;
+   }
+
    .box1, .box2, .box3{
     gap:1px ;
     flex-direction: column;
@@ -1160,19 +1172,100 @@ footer{
     padding-top: 24px;
     max-width: 513px;
    }
-}
 
+
+}
 @media(max-width:550px){
     .TR-box{
-        margin-left: 194px
+        margin-left: 58px;
+        width: 550px
+          
     }
     .content4{
         width: 500px;
     }
     .box1, .box2, .box3{
-        margin-left: 194px
+        margin-left: 58px;
+        width: 550px
+
+        
     }
 }
-/* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+@media(max-width:540px){
+    .cover{
+        width: 530px;
+        margin-left: -40px;
+    }
+    .TR-box{
+        width: 521px;
+        margin-left: 0px;
+    }
+    .box1, .box2, .box3{
+        width: 521px;
+        margin-left: 0px;
+    }
+    .container2{
+        padding: 0 15px;
+    }
+    .sec1{
+        width: 515px;
+    }
+    .con4{
+        width: 535px;
+    }
+}
+
+@media(max-width:415px){
+    .cover{
+        width: 411px;
+        margin-left: 0px;
+    }
+    .TR-box{
+        width: 411px;
+        margin-left: 0px;
+    }
+    .box1, .box2, .box3{
+        width: 411px;
+        margin-left: 0px;
+        padding-bottom:50px ;
+    }
+    .sec1{
+        margin-left: 83px;
+        max-width: 338px;
+    }
+    .con4{
+        width: 288px;
+        margin-left: 78px;
+    }
+
+    .sec6{
+        margin-left: 83px;;
+        max-width: 338px;
+    }
+    .container2 {
+        padding: 0px 0px;
+    }
+    .txt2{
+        margin-left: 66px;
+        width: 409px;
+    }
+    .button{
+        margin-left: 20px;
+    }
+    .sec9{
+        width: 140px;
+    }
+    .con3{
+        width: 288px;
+        margin-left: 78px;
+    }
+    .txt1{
+        margin-left: 72px;
+        width: 409px;
+    }
+}
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+    
+
 
 
